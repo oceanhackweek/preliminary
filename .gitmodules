@@ -1,0 +1,3 @@
+[submodule "jekyll-lesson-template"]
+	path = jekyll-lesson-template
+	url = https://github.com/oceanhackweek/jekyll-lesson-template.git
