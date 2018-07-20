@@ -17,7 +17,7 @@ keypoints:
 This preliminary tutorial is one that we would like you to complete before arriving at Oceanhackweek. The purpose is to learn about the minimum system requirement for the Oceanhackweek, install the necessary software used during the week, and hopefully answer any other technical question about your computer setup. Our goal is to have everyone up-and-running prior to the event so we can focus our time more productively when you arrive in person.
 
 > ## Python Version
-> We will be using **Python 3.6** only during the hackweek. We encouraged participants who comes from Python 2.7 to start reviewing the new syntax of Python 3.6.
+> We will be using **Python 3.6** only during the hackweek. We encouraged participants who come from Python 2.7 to start reviewing the new syntax of Python 3.6.
 > See [here](https://wiki.python.org/moin/Python2orPython3) for more details.
 {: .callout}
 
