@@ -47,9 +47,24 @@ Here are the system requirements:
 
 Click [here](/01-conda-tutorial/) to start our Conda tutorial. Let us know if on Slack you are having problems with installing Conda.
 
-### Getting setup with Git
+### Getting setup with Git and Github
 
 Be sure to arrive at Oceanhackweek with your own [GitHub](https://github.com/) account.
+
+**Git Installation**
+
+* Windows
+  - You need to install Git for Windows from this [link](https://gitforwindows.org/). For more setup details follow these [instructions](https://carpentries.github.io/workshop-template/#shell)
+
+* MAC OS
+
+  - Download the [git installer](https://git-scm.com/download/mac) and run it.
+
+* Linux (Debian)
+
+  ```
+    sudo apt install git-all
+  ```
 
 ### Getting setup with JupyterHub on AWS
 
@@ -61,3 +76,8 @@ Given all the heavy use of python during the oceanhackweek, we will not be able 
 
 * [Software carpentry lessons](https://software-carpentry.org/lessons/), especially the [Python tutorial](http://swcarpentry.github.io/python-novice-inflammation/)
 * [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+
+### Getting started with Bash
+
+During the hackweek it will be useful to know how to navigate between files from the command line. If you are not familiar with the unix shell commands you can review the first free sections of this [Software Carpentry Shell Novice](https://swcarpentry.github.io/shell-novice/) lesson. On Windows, use the Git Bash terminal to run these commands. 
+  
