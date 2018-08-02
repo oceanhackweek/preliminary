@@ -66,9 +66,9 @@ Be sure to arrive at Oceanhackweek with your own [GitHub](https://github.com/) a
     sudo apt install git-all
   ```
 
-### Getting setup with JupyterHub on AWS
-
-For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, you can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.
+<!--### Getting setup with JupyterHub on AWS-->
+<!--
+For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, Myou can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.-->
 
 ### Brushing up on Python
 
