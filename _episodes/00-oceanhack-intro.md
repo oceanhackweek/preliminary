@@ -48,10 +48,9 @@ Here are the system requirements:
 Click [here](/01-conda-tutorial/) to start our Conda tutorial. Let us know if on Slack you are having problems with installing Conda.
 
 
-### Getting setup with JupyterHub on AWS
+<!--### Getting setup with JupyterHub on AWS-->
 
-For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, you can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.
-
+<!--For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, you can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.-->
 ### Brushing up on Python
 
 Given all the heavy use of python during the oceanhackweek, we will not be able to provide instruction in Python fundamentals. Here are some excellent resources we recommend using to brush up on your Python skills in advance of our event:
