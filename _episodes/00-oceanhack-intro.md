@@ -47,6 +47,17 @@ Here are the system requirements:
 
 Click [here](/01-conda-tutorial/) to start our Conda tutorial. Let us know if on Slack you are having problems with installing Conda.
 
+
+<!--### Getting setup with JupyterHub on AWS-->
+
+<!--For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, you can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.-->
+### Brushing up on Python
+
+Given all the heavy use of python during the oceanhackweek, we will not be able to provide instruction in Python fundamentals. Here are some excellent resources we recommend using to brush up on your Python skills in advance of our event:
+
+* [Software carpentry lessons](https://software-carpentry.org/lessons/), especially the [Python tutorial](http://swcarpentry.github.io/python-novice-inflammation/)
+* [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+
 ### Getting setup with Git and Github
 
 Be sure to arrive at Oceanhackweek with your own [GitHub](https://github.com/) account.
@@ -66,18 +77,12 @@ Be sure to arrive at Oceanhackweek with your own [GitHub](https://github.com/) a
     sudo apt install git-all
   ```
 
-<!--### Getting setup with JupyterHub on AWS-->
-<!--
-For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, Myou can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.-->
-
-### Brushing up on Python
-
-Given all the heavy use of python during the oceanhackweek, we will not be able to provide instruction in Python fundamentals. Here are some excellent resources we recommend using to brush up on your Python skills in advance of our event:
-
-* [Software carpentry lessons](https://software-carpentry.org/lessons/), especially the [Python tutorial](http://swcarpentry.github.io/python-novice-inflammation/)
-* [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
-
 ### Getting started with Bash
 
-During the hackweek it will be useful to know how to navigate between files from the command line. If you are not familiar with the unix shell commands you can review the first free sections of this [Software Carpentry Shell Novice](https://swcarpentry.github.io/shell-novice/) lesson. On Windows, use the Git Bash terminal to run these commands. 
+During the hackweek it will be useful to know how to navigate between files from the command line. If you are not familiar with the unix shell commands you can review the first three sections of this [Software Carpentry Shell Novice](https://swcarpentry.github.io/shell-novice/) lesson. On Windows, use the Git Bash terminal to run these commands.
+
+
+### Command line editor
+
+When working on the command line, it is often handy to modify file content directly from there. For that you can use a command line editor such as `nano`. On Mac and Linux it is usually preinstalled, but for Windows you can follow the instructions in this [link](http://carpentries.github.io/workshop-template/#editor) to set it up.
   
