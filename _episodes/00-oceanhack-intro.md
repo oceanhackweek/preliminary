@@ -7,7 +7,7 @@ questions:
 - "What version of Python should I install?"
 - "What tools do I need to participate?" 
 objectives:
-- "Getting patricipants ready for running code in the cloud and on their local machines during the geohackweek"
+- "Getting participants ready for running code in the cloud and on their local machines during the hackweek"
 keypoints:
 - "participants will conduct tutorial exercises in a cloud environment"
 - "everyone is encouraged to arrive with Python installed on their laptop for the project work"
@@ -17,17 +17,20 @@ keypoints:
 This preliminary tutorial is one that we would like you to complete before arriving at Oceanhackweek. The purpose is to learn about the minimum system requirement for the Oceanhackweek, install the necessary software used during the week, and hopefully answer any other technical question about your computer setup. Our goal is to have everyone up-and-running prior to the event so we can focus our time more productively when you arrive in person.
 
 > ## Python Version
-> We will be using **Python 3.6** only during the hackweek. We encouraged participants who come from Python 2.7 to start reviewing the new syntax of Python 3.6.
+> We will be using **Python 3** only during the hackweek. We encouraged participants who come from Python 2 to start reviewing the new syntax of Python 3.
 > See [here](https://wiki.python.org/moin/Python2orPython3) for more details.
 {: .callout}
 
 ### Overview
 
-Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. The two main versions right now are 2.7 and 3.6. During the hackweek we will be using Python 3.6 for the tutorials, and encouraging participants to do so.
+Python software is distributed as a series of *libraries* that are called within your code to perform certain tasks. There are many different collections, or *distributions* of Python software. Generally you install a specific distribution of Python and then add additional libraries as you need them. There are also several different *versions* of Python. The two main versions right now are 2.7 and 3.7. During the hackweek we will be using Python 3.7 for the tutorials, and encouraging participants to do so.
 
 So even though Python is one of the most adaptable, easy-to-use software systems, you can see there are still complexities to work out and potential challenges when delivering content to a large group. Therefore we have a number of different ways that we are trying to simplify this process to maximize your learning during Oceanhackweek.
 
-We will be using [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/) hosted on [Amazon Web Services (AWS) Cloud](https://aws.amazon.com/). JupyterHub is a multi-user Hub that provides multiple instances of the single-user Jupyter notebook server. A Jupyter Notebook is an open-source web application that allows users to create and share documents containing live code, equations, visualizations, and markdown texts. Here's a [overview](https://www.slideshare.net/willingc/jupyterhub-a-thing-explainer-overview?from_action=save) on JupyterHub.
+We will be using <http://ocean.pangeo.io>.
+Pangeo is a [JupyterHub-like](https://jupyterhub.readthedocs.io/en/latest) implementation for the for ocean, atmospheric, and climate research community.
+A Jupyter Notebook is an open-source web application that allows users to create and share documents containing live code, equations, visualizations, and markdown texts.
+Here's a [overview](https://www.slideshare.net/willingc/jupyterhub-a-thing-explainer-overview) on JupyterHub.
 
 We also provide instructions for using [Miniconda](https://conda.io/miniconda.html), which is our recommended Python distribution. We can assist in setting up "conda" environments that will simplify the gathering of Python libraries and version specific to the tutorial you are working on.
 
@@ -35,7 +38,7 @@ We also provide instructions for using [Miniconda](https://conda.io/miniconda.ht
 
 [**Conda**](http://conda.pydata.org/docs/) is an **open source `package` and `environment` management system for python libraries**. We will be using various
 Python libraries with multiple dependencies, so it is critical that you have some sort of 
-package management system in place. Conda can be installed in almost any computer. The advantage of conda compared to `pip` is that it has a built in environment management system as well as the management of binaries, and low level dependencies.
+package management system in place. Conda can be installed in almost any computer. The advantage of [`conda` compared to `pip`](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions) is that it has a built in environment management system as well as the management of binaries, and non-python dependencies.
 
 Here are the system requirements:
 
@@ -48,9 +51,6 @@ Here are the system requirements:
 Click [here](/01-conda-tutorial/) to start our Conda tutorial. Let us know if on Slack you are having problems with installing Conda.
 
 
-<!--### Getting setup with JupyterHub on AWS-->
-
-<!--For those who have joined the oceanhackweek [participants_2018 team](https://github.com/orgs/oceanhackweek/teams/participants_2018/members) in github, you can try accessing the Jupyterhub server we will be using throughout the program by clicking [here](#). Make sure you are able to select the Python 3 kernel on the top right corner when you click on the "New" button. You will be logging into Jupyterhub using your Github credentials.-->
 ### Brushing up on Python
 
 Given all the heavy use of python during the oceanhackweek, we will not be able to provide instruction in Python fundamentals. Here are some excellent resources we recommend using to brush up on your Python skills in advance of our event:
@@ -63,6 +63,7 @@ Given all the heavy use of python during the oceanhackweek, we will not be able 
 Be sure to arrive at Oceanhackweek with your own [GitHub](https://github.com/) account.
 
 **Git Installation**
+
 
 * Windows
   - You need to install Git for Windows from this [link](https://gitforwindows.org/). For more setup details follow these [instructions](https://carpentries.github.io/workshop-template/#shell)
@@ -84,5 +85,5 @@ During the hackweek it will be useful to know how to navigate between files from
 
 ### Command line editor
 
-When working on the command line, it is often handy to modify file content directly from there. For that you can use a command line editor such as `nano`. On Mac and Linux it is usually preinstalled, but for Windows you can follow the instructions in this [link](http://carpentries.github.io/workshop-template/#editor) to set it up.
+When working on the command line, it is often handy to modify file content directly from there. For that you can use a command line editor such as `nano`. On Mac and Linux it is usually pre-installed, but for Windows you can follow the instructions in this [link](http://carpentries.github.io/workshop-template/#editor) to set it up.
   
